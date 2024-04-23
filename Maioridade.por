@@ -10,7 +10,7 @@ programa {
     anos = MAIORIDADE - idade
     se (anos > 0)
     {
-      escreva("falta(m) ", "ano(s) para você atingir a maioridade\n")
+      escreva("falta(m) ", anos, "para você atingir a maioridade\n")
     }
     senao
     {
